@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Grades</title>
+</head>
+
+<body>
+    
+<style type="text/css">
+    
+    table,th,td 
+    {
+        
+        border-collapse: collapse;
+        border: 2px solid #343d52;
+ 
+    }
+    
+    tr:nth-child(even)
+    {
+        background-color: #b3b3c0;
+    }
+    
+    td 
+    {
+        padding: 8px;
+        border-spacing: 5px;
+        text-align: center;
+        font-size: 15px
+    }
+    
+    th
+    {
+        color: white;
+        font-size: 20px
+    }
+   
+</style>
+
+<h1 align="center">St. Benedict High School</h1>
+<p style="font-size: 25px"><b>Teacher:</b> Mr. Ade<br><b>Class:</b> SS2</p>
+
+
+
+<table style="width:100%">
+    
+    <caption style="font-size: 20px" align="center">Students Grade</caption>
+    <thead id="School Grades">
+        y
+        <tr bgcolor="#343d52">
+            
+            <th>S/N</th>
+            <th>Students</th>
+            <th>Subjects</th>
+            <th>Scores</th>
+            <th>Total Scores</th>
+        
+            
+        </tr>
+    </thead>     
+    
+    <tbody>
+<div>
+       <tr class="Records">
+            <td rowspan="5">1</td>
+            <td rowspan="5">Adekunle</td>
+            <td class="Maths">Mathematics</td>
+            <td class="grade">72</td>
+            <td rowspan="5"class ="score">303</td>
+       </tr>
+            
+       <tr>
+            <td class="English">English</td>
+            <td class="grade">43</td>
+       </tr>
+       
+       <tr>
+            <td class="Physics">Physics</td>
+            <td class="grade">78</td>
+       </tr>
+       
+       <tr>
+            <td class="Chemistry">Chemistry</td>
+            <td class="grade">73</td>
+       </tr>
+       
+       <tr>
+            <td class="Biology">Biology</td>
+            <td class="grade">37</td>
+       </tr>
+</div>     
+       
+<div>                
+       <tr class="Records">
+            <td rowspan="5">2</td>
+            <td rowspan="5">John</td>
+            <td class="Maths">Mathematics</td>
+            <td class="grade">42</td>
+            <td rowspan="5"class ="score">289</td>
+       </tr>
+            
+       <tr>
+            <td class="English">English</td>
+            <td class="grade">64</td>
+       </tr>
+       
+       <tr>
+            <td class="Physics">Physics</td>
+            <td class="grade">70</td>
+       </tr>
+       
+       <tr>
+            <td class="Chemistry">Chemistry</td>
+            <td class="grade">55</td>
+       </tr>
+       
+       <tr>
+            <td class="Biology">Biology</td>
+            <td class="grade">58</td>
+       </tr>
+</div>      
+
+<div>
+      <tr class="Records">
+            <td rowspan="5">3</td>
+            <td rowspan="5">Peter</td>
+            <td class="Maths">Mathematics</td>
+            <td class="grade">62</td>
+            <td rowspan="5"class ="score">349</td>
+       </tr>
+            
+       <tr>
+            <td class="English">English</td>
+            <td class="grade">40</td>
+       </tr>
+       
+       <tr>
+            <td class="Physics">Physics</td>
+            <td class="grade">73</td>
+       </tr>
+       
+       <tr>
+            <td class="Chemistry">Chemistry</td>
+            <td class="grade">75</td>
+       </tr>
+       
+       <tr>
+            <td class="Biology">Biology</td>
+            <td class="grade">99</td>
+       </tr>
+</div>
+
+<div>
+      <tr class="Records">
+            <td rowspan="5">4</td>
+            <td rowspan="5">Rukayat</td>
+            <td class="Maths">Mathematics</td>
+            <td class="grade">77</td>
+            <td rowspan="5"class ="score">389</td>
+       </tr>
+            
+       <tr>        
+            <td class="English">English</td>
+            <td class="grade">75</td>
+       </tr>
+       
+       <tr>
+            <td class="Physics">Physics</td>
+            <td class="grade">78</td>
+       </tr>
+       
+       <tr>
+            <td class="Chemistry">Chemistry</td>
+            <td class="grade">75</td>
+       </tr>
+       
+       <tr>
+            <td class="Biology">Biology</td>
+            <td class="grade">82</td>
+       </tr>
+</div>
+
+<div>
+      <tr class="Records">
+            <td rowspan="5">5</td>
+            <td rowspan="5">Paul</td>
+            <td class="Maths">Mathematics</td>
+            <td class="grade">72</td>
+            <td rowspan="5"class ="score">351</td>
+       </tr>
+            
+       <tr>           
+            <td class="English">English</td>
+            <td class="grade">40</td>
+       </tr>
+       
+       <tr>
+            <td class="Physics">Physics</td>
+            <td class="grade">72</td>
+       </tr>
+       
+       <tr>
+            <td class="Chemistry">Chemistry</td>
+            <td class="grade">70</td>
+       </tr>
+       
+       <tr>
+            <td class="Biology">Biology</td>
+            <td class="grade">97</td>
+       </tr>
+</div>
+
+<div>
+      <tr class="Records">
+            <td rowspan="5">6</td>
+            <td rowspan="5">Victor</td>
+            <td class="Maths">Mathematics</td>
+            <td class="grade">76</td>
+            <td rowspan="5"class ="score">324</td>
+       </tr>
+            
+       <tr>           
+            <td class="English">English</td>
+            <td class="grade">64</td>
+       </tr>
+       
+       <tr>
+            <td class="Physics">Physics</td>
+            <td class="grade">48</td>
+       </tr>
+       
+       <tr>
+            <td class="Chemistry">Chemistry</td>
+            <td class="grade">99</td>
+       </tr>
+       
+       <tr>
+            <td class="Biology">Biology</td>
+            <td class="grade">37</td>
+       </tr>
+</div>
+
+<div>
+      <tr class="Records">
+            <td rowspan="5">7</td>
+            <td rowspan="5">John</td>
+            <td class="Maths">Mathematics</td>
+            <td class="grade">62</td>
+            <td rowspan="5"class ="score">333</td>
+       </tr>
+            
+       <tr>           
+            <td class="English">English</td>
+            <td class="grade">54</td>
+       </tr>
+       
+       <tr>
+            <td class="Physics">Physics</td>
+            <td class="grade">78</td>
+       </tr>
+       
+       <tr>
+            <td class="Chemistry">Chemistry</td>
+            <td class="grade">75</td>
+       </tr>
+       
+       <tr>
+            <td class="Biology">Biology</td>
+            <td class="grade">64</td>
+       </tr>
+</div>
+
+<div>
+      <tr class="Records">
+            <td rowspan="5">8</td>
+            <td rowspan="5">Doe</td>
+            <td class="Maths">Mathematics</td>
+            <td class="grade">52</td>
+            <td rowspan="5"class ="score">296</td>
+       </tr>
+            
+       <tr>
+            
+            <td class="English">English</td>
+            <td class="grade">84</td>
+       </tr>
+       
+       <tr>
+            <td class="Physics">Physics</td>
+            <td class="grade">48</td>
+       </tr>
+       
+       <tr>
+            <td class="Chemistry">Chemistry</td>
+            <td class="grade">85</td>
+       </tr>
+       
+       <tr>
+            <td class="Biology">Biology</td>
+            <td class="grade">27</td>
+       </tr>
+</div>
+
+<div>
+      <tr class="Records">
+            <td rowspan="5">9</td>
+            <td rowspan="5">Stephen</td>
+            <td class="Maths">Mathematics</td>
+            <td class="grade">92</td>
+            <td rowspan="5"class ="score">340</td>
+       </tr>
+            
+       <tr>            
+            <td class="English">English</td>
+            <td class="grade">44</td>
+       </tr>
+       
+       <tr>
+            <td class="Physics">Physics</td>
+            <td class="grade">78</td>
+       </tr>
+       
+       <tr>
+            <td class="Chemistry">Chemistry</td>
+            <td class="grade">65</td>
+       </tr>
+       
+       <tr>
+            <td class="Biology">Biology</td>
+            <td class="grade">61</td>
+       </tr>
+</div>
+         
+       
+    </tbody>
+    
+</table> 
+    
+    
+</body>
+</html>
